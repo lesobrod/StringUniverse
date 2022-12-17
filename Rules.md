@@ -10,12 +10,12 @@ We can also have multiple replacement rules for different patterns.
 Eg {AA → x, AB → y}  
 And these rule sets can also be applied in many ways:  
 - (Oneway) Every rule by order to its first match: xyAABAA
-- (Oneway) First rule to all mathes, then second rule to all mathes in previous result etc:  
+- (Oneway) First rule to all mathes, then second rule to all matches in previous result etc:  
   xyxBx  
 - (Multiway) Every rule by order to its first match: {xABAABAA | AAyAABAA}
-- (Multiway) Every rule to all mathes (Mathematica `MultiwaySystem[]` default:
+- (Multiway) Every rule to all matches (Mathematica `MultiwaySystem[]` default:
   {AAABAABx | AAABAyAA | AAABxBAA | AAyAABAA | AxBAABAA | xABAABAA}
-- (Multiway) First rule to all mathes, then second rule to all mathes in previous result etc:
+- (Multiway) First rule to all matches, then second rule to all matches in previous result etc:
   {AAABAABx | AAABAyx | AAyAABx | AAABAyAA | AAABxBAA | AAyxBAA | AAyAABAA | AxBAABAA | AxBAyAA | xABAABAA | xyAABAA | xABAyAA}  
 ... and many others possibilities.  
 
