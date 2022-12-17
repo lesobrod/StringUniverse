@@ -18,7 +18,7 @@ it is possible to get results of many types:
 {A → BBB, BB → A} A ⟶ BBB ⟶ {AB | BA} ⟶ {BBBB} ⟶ {ABB | BAB | BBA} ⟶ ...   
 
 [Here]() will be examples of possible outcomes,  
-and [here]() — systematization of possible rules "how to applicate rules"
+and [here](https://github.com/lesobrod/StringUniverse/blob/main/Rules.md) — systematization of possible rules "how to applicate rules"
 ## Wolfram Language
 ## Python 
 (coming soon)
