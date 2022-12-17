@@ -7,14 +7,18 @@ Here we will illustrate just [one aspect](https://www.wolframphysics.org/technic
 If we start with the letter A and apply the simplest rules for replacing elements,  
 it is possible to get results of many types:
 - Fixed point:
-{A → A}  A ⟶ A
+{A → BA, BB → B}  A ⟶ BA ⟶ BBA ⟶ BBA ⟶ ...
 - Growth:
 {A → AA}  A ⟶ AA ⟶ AAA ⟶ ...
 - Loop:
-{A → AA}  A ⟶ AA ⟶ AAA ⟶ ...
+{A → B, B → A}  A ⟶ B ⟶ A ⟶ ...
 - Fractal:
-{"A" -> "AB", "B" -> "AA"} 
+{A → AB, B → AA} A ⟶ AB ⟶ ABAA ⟶ ABAAABABABAAABABABAAABAA ⟶ ...
+- Multiway system:
+{A → BBB, BB → A} A ⟶ BBB ⟶ {AB | BA} ⟶ {BBBB} ⟶ {ABB | BAB | BBA} ⟶ ...   
 
+[Here] () will be examples of possible outcomes,  
+and [here] () — systematization of possible rules "how to applicate rules"
 ## Wolfram Language
 ## Python 
 (coming soon)
