@@ -19,7 +19,7 @@ it is possible to get results of many types:
 
 [Here]() will be examples of possible outcomes,  
 and [here](https://github.com/lesobrod/StringUniverse/blob/main/Rules.md) — systematization of possible rules "how to applicate rules"
-## Wolfram Language
+## [Wolfram Language](https://github.com/lesobrod/StringUniverse/tree/main/WolframLanguage)
 ## Python 
 (coming soon)
 ## JavaScript 
