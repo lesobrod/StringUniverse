@@ -24,5 +24,4 @@ and [here](https://github.com/lesobrod/StringUniverse/blob/main/Rules.md) — sy
 (coming soon)
 ## JavaScript 
 (coming soon)
-## Vyxal
-(coming soon)
+## [Vyxal](https://github.com/lesobrod/StringUniverse/tree/main/Vyxal)
