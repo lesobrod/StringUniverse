@@ -6,5 +6,10 @@ There is only a finite number of possible states.
 
 Simplest 1D CA ***
 
-Function `GetNewCell` return new cell state by CA number and 3-char strings (cell and two nearest‐neighbors):
-`@gnc:2|bṅṅṘ $ B i;`
+Function `GetNewCell` return new cell state by CA number and 3-char string (cell and two nearest‐neighbors):
+`@gnc:2|
+b   #To binary
+ṅṅṘ # Get CA cose from number
+$B  # Get position in code
+i;  #Return value`
+  
