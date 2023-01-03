@@ -25,7 +25,16 @@ Take String and Size in stack.
 Function `GetNewCell` return new cell state by CA number and 3-char string (cell and two nearest‐neighbors):
 @gnc:2|bṅṅṘ $ B i; #Checkout!!!
 
+Split string on triplets, padding last item to the left and first to the right:
+
+
+
 Put it all together:
-20 #Width
-10 #Num iterations
+
+10 #Num iterations  
+30 #Wolfram code  
+
+⟨\`1\`|\`0\`⟩ ⟨\`■\`|\` \`⟩ #replacement rules  
+20 #Width  
+\`1\` #Initial string  
 
