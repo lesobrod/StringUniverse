@@ -13,28 +13,29 @@ There is only a finite number of possible states.
 - *Initial string*: String contained only \`1\` and \`0\` (no cleaning inside code)  
 Length > 0; if Length > Size, take first Size items; if Length < Size, String padded by zeroes centered.  
 - [Wolfram code](https://en.wikipedia.org/wiki/Wolfram_code) of 1D 3-CA: 0 < Integer < 256  
-- Array of *replacement symbols:* Array for \`0\` and \`1\` replacement in Output  
-E.g. ⟨ \` \` | \`■\`⟩  
+- *Кeplacement symbols:* Дшые for \`0\` and \`1\` replacement in Output. E.g. ⟨ \` \` | \`■\`⟩   
+ 
 **Output:**  
-- Width x Height Unicode strings showing evolution of the world (initial string on top)  
+- Width * Height Unicode strings showing evolution of the world (initial string on top)  
 
-Function `PrepareString` return trimmed or padded initial string. 
-Take String and Size in stack.  
-@ps:2|:L„ ~≤ \[„⋏\` \` \`0\` øV |w„$ i \];
+Function `PrepareString` return trimmed or padded initial string:  
+@ps:2|:L„ ~≤ \[„⋏ \` \`  \` 0 \` øV $\_ | w „$ i \]; 
 
-Function `GetNewCell` return new cell state by CA number and 3-char string (cell and two nearest‐neighbors):
-@gnc:2|bṅṅṘ $ B i; #Checkout!!!
+Function `GetNewCell` return new cell state by CA number and 3-char string (cell and two nearest‐neighbors):  
+@gnc:1|÷bṅṅṘ $ B i;  
 
-Split string on triplets, padding last item to the left and first to the right:
+Function `SplitString` split string on triplets, previosly put last item to the left and first to the right:  
+ @ss:1|::h$t‟++ 3 l;
 
+Put it all together:  
 
-
-Put it all together:
-
-10 #Num iterations  
-30 #Wolfram code  
-
-⟨\`1\`|\`0\`⟩ ⟨\`■\`|\` \`⟩ #replacement rules  
-20 #Width  
-\`1\` #Initial string  
+@ss:1|::h$t‟++ 3 l;  
+@ps:2|:L„ ~≤ \[„⋏` ` `0` øV $\_| w „$ i \];  
+@gnc:1|÷bṅṅṘ $ B i;  
+30                 #Wolfram code  
+\`1\`              #Initial string  
+50                 #World width  
+30 →num            #Number of iterations  
+⟨\`■\`|\` \`⟩ →arr  #Symbols  
+ @ps; ←num( : ⟨\`1\`|\`0\`⟩ ←arr Ŀ, @ss; : L „ :‟ ẋ Z v@gnc; ṅ ) 
 
