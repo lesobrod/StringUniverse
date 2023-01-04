@@ -21,5 +21,5 @@ And these rule sets can also be applied in many ways:
 
 I believe in the concept of the super-multiverse:  
 all possible rules apply in all ways to all states.  
-And our universe is one of the ∞<sup>∞</sup> results in this multi-infinity.  
+And our universe is one of the ∞<sup>∞</sup> results in this branched infinity.  
 
