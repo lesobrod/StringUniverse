@@ -11,12 +11,11 @@ There is only a finite number of possible states.
 - *Size* (width) of the world: Integer > 0
 - *Number of iterations* ("height"): Integer >= 0
 - *Initial string*: String contained only \`1\` and \`0\` (no cleaning inside code)  
-Length > 0; if Length > Size, take first Size items; if Length < Size, String padded by zeroes centered.  
+  Length > 0  
+If Length > Size, take first Size items; if Length < Size, String expand by zeroes.  
 - [Wolfram code](https://en.wikipedia.org/wiki/Wolfram_code) of 1D 3-CA: 0 < Integer < 256  
-- *Кeplacement symbols:* Дшые for \`0\` and \`1\` replacement in Output. E.g. ⟨ \` \` | \`■\`⟩   
+- *Кeplacement symbols:* List for \`0\` and \`1\` replacement in Output. 
+   E.g. ⟨ \` \` | \`■\`⟩   
  
 **Output:**  
 - Width * Height Unicode strings showing evolution of the world (initial string on top)  
-
-
-
