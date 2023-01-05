@@ -5,16 +5,16 @@ and comments
 }#
 
 # Functions:
-@ps:2|               #  
+@ps:2|               # Prepare init string
   :L„ ~≤             # Condiditon
   [                  # Begin If  
-    „⋏` ` `0` øV $_  #
-    | w „$ i         #
+    $_⋏` ` `0` øV    # Expand by zeroes
+    | $_Ẏ            # Slice
   ];                 # End If
 
 
 @ss:1|               # Expand and 3-partition
-  ::h$t‟++           # Expand
+  :₌ht ‟++           # Expand
   3 l;               # Partition
 
 @gnc:1|              # New cell from CA code and triplet
@@ -22,14 +22,19 @@ and comments
   $ B i;             # Get value
 
 # Input:
-30        →code
-`1`       →str
-10        →size
-5         →num   
-⟨`■`|` `⟩  →syms
+30        
+`1`       
+10        
+5         
+⟨`■`|` `⟩  
 
 # Main:
-←str ←size @ps;      # Prepare init string
+→syms  
+→num   
+→size  
+→str
+→code
+←str ←size @ps;        # Prepare init string
 ←num 
 (                      # Start iteration loop
   : ⟨`1`|`0`⟩  ←syms Ŀ, # Replace symbols and pretty print
