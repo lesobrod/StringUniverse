@@ -15,10 +15,10 @@ bṅṅṘ‟              # Code to binary
   $_ ⋏ ` ` `0` øV 
   | $_ Ẏ
 ] 
-$ (                # Start loop
+$(                 # Start loop
   $⟨`1`|`0`⟩$ ~Ŀ,   # Print
   $_‟              # Change stack
-  :₌ht ∇++         # 
-
-
-
+  :₌ht∇++         # Expand string
+  3 l vB ~İ ṅ      # Partition and get new string
+  $_^„             # Change stack
+ )                 # End loop
