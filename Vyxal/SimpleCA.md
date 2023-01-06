@@ -21,14 +21,12 @@ If Length > Size, take first Size items; if Length < Size, String expand by zero
 - Width * Height Unicode strings showing evolution of the world (initial string on top)  
 
 ### Examples
-Code: 30, Width: 50, Height: 20, Initial: \`1\`, Symbols: ⟨ \` \` | \`■\`⟩  
-    
+Code: 30, Width: 50, Height: 20, Initial: \`1\`, Symbols: ⟨ \` \` | \`■\`⟩:   
+<img src="1.jpg" width="200" title="Example 1">
 
-Code: 73, Width: 50, Height: 16, Initial: \`1\`, Symbols: ⟨ \` ▢ \` | \`▦\`⟩:
+Code: 73, Width: 50, Height: 16, Initial: \`1\`, Symbols: ⟨ \` ▢ \` | \`▦\`⟩:  
+<img src="1.jpg" width="200" title="Example 1">
 
-
-
- ⟨`◯`|` `⟩ 40 30  `0110010111010101010101` 169
- Code: 82, Width: 50, Height: 16, Initial: \`101010101\`, Symbols: ⟨ \`* \` | \` \`⟩:
-
+Code: 169, Width: 30, Height: 40, Initial: \`0110010111010101010101\`, Symbols: ⟨ \`◯ \` | \` \`⟩:  
+![Example 3](3.jpg)
 
