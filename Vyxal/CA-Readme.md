@@ -14,7 +14,7 @@ There is only a finite number of possible states.
   Length > 0  
 If Length > Size, take first Size items; if Length < Size, String expand by zeroes.  
 - [*Wolfram code*](https://en.wikipedia.org/wiki/Wolfram_code) of 1D 3-CA: 0 < Integer < 256  
-- *Кeplacement symbols:* List for \`0\` and \`1\` replacement in Output. 
+- *Replacement symbols:* List for \`0\` and \`1\` replacement in Output. 
    E.g. ⟨ \` \` | \`■\`⟩   
  
 **Output:**  
