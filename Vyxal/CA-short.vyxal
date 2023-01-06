@@ -22,3 +22,6 @@ $(                 # Start loop
   3 l vB ~İ ṅ      # Partition and get new string
   $_^„             # Change stack
  )                 # End loop
+
+# Extra short
+bṅṅṘ‟:L∇∇~≤[$_⋏` ` `0`øV|$_Ẏ]$($⟨`1`|`0`⟩$~Ŀ,$_‟:₌ht∇++3lvB~İṅ$_^„)
