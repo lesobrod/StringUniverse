@@ -1,0 +1,24 @@
+# Short version
+# Only stack
+
+# Input:
+⟨`■`|` `⟩           # Symbols
+5                  # Number of iterations
+10                 # Width of the world
+`1`                # Initial string
+30                 # CA code
+
+# Main:
+bṅṅṘ‟              # Code to binary
+:L∇∇ ~≤           # Prepare string (conditionally)
+[
+  $_ ⋏ ` ` `0` øV 
+  | $_ Ẏ
+] 
+$ (                # Start loop
+  $⟨`1`|`0`⟩$ ~Ŀ,   # Print
+  $_‟              # Change stack
+  :₌ht ∇++         # 
+
+
+
